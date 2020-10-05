@@ -20,6 +20,7 @@ namespace Web.PJ_ELearning.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.title = "E-Learning";
             return View();
         }
 
