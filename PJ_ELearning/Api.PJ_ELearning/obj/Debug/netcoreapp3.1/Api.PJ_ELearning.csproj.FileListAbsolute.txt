@@ -7,7 +7,6 @@ C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearnin
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\bin\Debug\netcoreapp3.1\Api.PJ_ELearning.runtimeconfig.dev.json
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\bin\Debug\netcoreapp3.1\Api.PJ_ELearning.dll
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\bin\Debug\netcoreapp3.1\Api.PJ_ELearning.pdb
-C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\obj\Debug\netcoreapp3.1\Api.PJ_ELearning.csprojAssemblyReference.cache
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\obj\Debug\netcoreapp3.1\Api.PJ_ELearning.AssemblyInfoInputs.cache
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\obj\Debug\netcoreapp3.1\Api.PJ_ELearning.AssemblyInfo.cs
 C:\Users\Film\source\repos\Kingkongnoi\PJ_ELearning\PJ_ELearning\Api.PJ_ELearning\obj\Debug\netcoreapp3.1\Api.PJ_ELearning.csproj.CoreCompileInputs.cache

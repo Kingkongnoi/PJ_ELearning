@@ -1,4 +1,7 @@
-﻿<section id="courses">
+﻿<script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="~/scripts/home.js"></script>
+
+<section id="courses">
     <div class="container">
         <div class="row">
 
@@ -22,149 +25,188 @@
                                 </div>
 
                                 <div class="courses-detail">
-                                    <h3><a href="#">Social Media Management</a></h3>
+                                    <h3><a href="#" onclick="lession1()">Social Media Management</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
 
-                                <div class="courses-info">
-                                    <div class="courses-author">
-                                        <img src="~/downloads/Known/images/author-image1.jpg" class="img-responsive" alt="">
-                                        <span>Mark Wilson</span>
-                                    </div>
-                                    <div class="courses-price">
-                                        <a href="#"><span>USD 25</span></a>
-                                    </div>
-                                </div>
+                                @*<div class="courses-info">
+                                        <div class="courses-author">
+                                            <img src="~/downloads/Known/images/author-image1.jpg" class="img-responsive" alt="">
+                                            <span>Mark Wilson</span>
+                                        </div>
+                                        <div class="courses-price">
+                                            <a href="#"><span>Get Start</span></a>
+                                        </div>
+                                    </div>*@
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="item">
-                            <div class="courses-thumb">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="~/downloads/Known/images/courses-image2.jpg" class="img-responsive" alt="">
+                    @*<div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="courses-thumb">
+                                    <div class="courses-top">
+                                        <div class="courses-image">
+                                            <img src="~/downloads/Known/images/courses-image2.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="courses-date">
+                                            <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 4.5 Hours</span>
+                                        </div>
                                     </div>
-                                    <div class="courses-date">
-                                        <span><i class="fa fa-calendar"></i> 20 / 7 / 2018</span>
-                                        <span><i class="fa fa-clock-o"></i> 4.5 Hours</span>
-                                    </div>
-                                </div>
 
-                                <div class="courses-detail">
-                                    <h3><a href="#">Graphic & Web Design</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-
-                                <div class="courses-info">
-                                    <div class="courses-author">
-                                        <img src="~/downloads/Known/images/author-image2.jpg" class="img-responsive" alt="">
-                                        <span>Jessica</span>
+                                    <div class="courses-detail">
+                                        <h3><a href="#">Graphic & Web Design</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
-                                    <div class="courses-price">
-                                        <a href="#"><span>USD 80</span></a>
+
+                                    <div class="courses-info">
+                                        <div class="courses-author">
+                                            <img src="~/downloads/Known/images/author-image2.jpg" class="img-responsive" alt="">
+                                            <span>Jessica</span>
+                                        </div>
+                                        <div class="courses-price">
+                                            <a href="#"><span>USD 80</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="item">
-                            <div class="courses-thumb">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="~/downloads/Known/images/courses-image3.jpg" class="img-responsive" alt="">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="courses-thumb">
+                                    <div class="courses-top">
+                                        <div class="courses-image">
+                                            <img src="~/downloads/Known/images/courses-image3.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="courses-date">
+                                            <span><i class="fa fa-calendar"></i> 15 / 8 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 6 Hours</span>
+                                        </div>
                                     </div>
-                                    <div class="courses-date">
-                                        <span><i class="fa fa-calendar"></i> 15 / 8 / 2018</span>
-                                        <span><i class="fa fa-clock-o"></i> 6 Hours</span>
-                                    </div>
-                                </div>
 
-                                <div class="courses-detail">
-                                    <h3><a href="#">Marketing Communication</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
+                                    <div class="courses-detail">
+                                        <h3><a href="#">Marketing Communication</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
 
-                                <div class="courses-info">
-                                    <div class="courses-author">
-                                        <img src="~/downloads/Known/images/author-image3.jpg" class="img-responsive" alt="">
-                                        <span>Catherine</span>
-                                    </div>
-                                    <div class="courses-price free">
-                                        <a href="#"><span>Free</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                        <div class="item">
-                            <div class="courses-thumb">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="~/downloads/Known/images/courses-image4.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="courses-date">
-                                        <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
-                                        <span><i class="fa fa-clock-o"></i> 8 Hours</span>
-                                    </div>
-                                </div>
-
-                                <div class="courses-detail">
-                                    <h3><a href="#">Summer Kids</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-
-                                <div class="courses-info">
-                                    <div class="courses-author">
-                                        <img src="~/downloads/Known/images/author-image1.jpg" class="img-responsive" alt="">
-                                        <span>Mark Wilson</span>
-                                    </div>
-                                    <div class="courses-price">
-                                        <a href="#"><span>USD 45</span></a>
+                                    <div class="courses-info">
+                                        <div class="courses-author">
+                                            <img src="~/downloads/Known/images/author-image3.jpg" class="img-responsive" alt="">
+                                            <span>Catherine</span>
+                                        </div>
+                                        <div class="courses-price free">
+                                            <a href="#"><span>Free</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="item">
-                            <div class="courses-thumb">
-                                <div class="courses-top">
-                                    <div class="courses-image">
-                                        <img src="~/downloads/Known/images/courses-image5.jpg" class="img-responsive" alt="">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="courses-thumb">
+                                    <div class="courses-top">
+                                        <div class="courses-image">
+                                            <img src="~/downloads/Known/images/courses-image4.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="courses-date">
+                                            <span><i class="fa fa-calendar"></i> 10 / 8 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 8 Hours</span>
+                                        </div>
                                     </div>
-                                    <div class="courses-date">
-                                        <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
-                                        <span><i class="fa fa-clock-o"></i> 10 Hours</span>
-                                    </div>
-                                </div>
 
-                                <div class="courses-detail">
-                                    <h3><a href="#">Business &amp; Management</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-
-                                <div class="courses-info">
-                                    <div class="courses-author">
-                                        <img src="~/downloads/Known/images/author-image2.jpg" class="img-responsive" alt="">
-                                        <span>Jessica</span>
+                                    <div class="courses-detail">
+                                        <h3><a href="#">Summer Kids</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
-                                    <div class="courses-price free">
-                                        <a href="#"><span>Free</span></a>
+
+                                    <div class="courses-info">
+                                        <div class="courses-author">
+                                            <img src="~/downloads/Known/images/author-image1.jpg" class="img-responsive" alt="">
+                                            <span>Mark Wilson</span>
+                                        </div>
+                                        <div class="courses-price">
+                                            <a href="#"><span>USD 45</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <div class="courses-thumb">
+                                    <div class="courses-top">
+                                        <div class="courses-image">
+                                            <img src="~/downloads/Known/images/courses-image5.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="courses-date">
+                                            <span><i class="fa fa-calendar"></i> 5 / 10 / 2018</span>
+                                            <span><i class="fa fa-clock-o"></i> 10 Hours</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="courses-detail">
+                                        <h3><a href="#">Business &amp; Management</a></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+
+                                    <div class="courses-info">
+                                        <div class="courses-author">
+                                            <img src="~/downloads/Known/images/author-image2.jpg" class="img-responsive" alt="">
+                                            <span>Jessica</span>
+                                        </div>
+                                        <div class="courses-price free">
+                                            <a href="#"><span>Free</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>*@
 
                 </div>
 
             </div>
         </div>
+    </div>
 </section>
+
+
+<!-- Central Modal Medium Success -->
+<div class="modal fade" id="lession1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-notify modal-success" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Modal Success</p>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">&times;</span>
+                </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="text-center">
+                    <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                        ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                        ab officiis totam.
+                    </p>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <a type="button" class="btn btn-success">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+                <a type="button" class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Central Modal Medium Success-->
